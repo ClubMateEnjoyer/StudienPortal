@@ -1,0 +1,42 @@
+{
+  "name": "studienportal",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "project for uni course \"web engineering 2\"",
+  "main": "./dist/httpServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node ./dist/httpServer.js",
+    "build": "tsc",
+    "dev": "nodemon ./httpServer.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClubMateEnjoyer/StudienPortal.git"
+  },
+  "author": "Behne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClubMateEnjoyer/StudienPortal/issues"
+  },
+  "homepage": "https://github.com/ClubMateEnjoyer/StudienPortal#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.10.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
